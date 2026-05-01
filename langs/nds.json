@@ -68,13 +68,15 @@
         "lightTheme": "Helles Farbschema benutzen",
         "systemTheme": "Systemfarbschema benutzen",
         "rotationLock": "Ausrichtungssperre",
-        "tabLabels": "Tabblääder wiesen"
+        "tabLabels": "Tabblääder wiesen",
+        "downloadTranscoding": "Transkodierte Downloads"
     },
     "links": {
         "website": "Jellyfin Website",
         "documentation": "Dokumentation",
         "source": "Quellcode",
-        "translate": "Übersetzen"
+        "translate": "Übersetzen",
+        "help": "Hilfe bekommen"
     },
     "alerts": {
         "deleteServer": {
@@ -86,6 +88,25 @@
             "title": "Applikation zurücksetzen",
             "description": "Sind Sie sicher, dass Sie alle Einstellungen zurücksetzen wollen?",
             "confirm": "Zurücksetzen"
+        },
+        "missingDownload": {
+            "title": "Fehlender Download",
+            "description": "Sieht so aus als wurde dieser Download aus der Jellyfin app entfernt."
+        },
+        "deleteDownloads": {
+            "title": "Heruntergeladene Inhalte löschen",
+            "description": "Dieser Inhalt wird permanent von diesem Gerät entfernt.",
+            "confirm": "Lösche {{downloadCount}} Inhalte"
+        },
+        "downloadFailed": {
+            "title": "Herunterladen fehlgeschlagen",
+            "description": "Fehler beim Herunterladen von \"{{title}}\"."
+        }
+    },
+    "downloads": {
+        "noDownloads": {
+            "heading": "Keine Heruntergeladenen Inhalte",
+            "description": "Heruntergeladene Inhalte werden hier erscheinen."
         }
     }
 }
