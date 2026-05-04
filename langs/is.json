@@ -6,7 +6,10 @@
         "edit": "Breyta",
         "ok": "OK",
         "unknown": "Óþekkt",
-        "share": "Deila"
+        "share": "Deila",
+        "alpha": "ALPHA",
+        "openInFiles": "Opna í skjölum",
+        "play": "Spila"
     },
     "headings": {
         "addServer": "Bæta við þjón",
@@ -37,11 +40,15 @@
                 "description": "Jellyfin vefþjóninn skilaði villu."
             },
             "invalidServer": {
-                "heading": "Þjónn er rangur"
+                "heading": "Þjónn er rangur",
+                "description": "Eitthvað kom uppá og vistaðar upplýsingar um netþjóninn eru ógildar. Reyndu að fjarlægja netþjóninn úr stillingum og bæta honum við aftur."
             },
             "offline": {
                 "heading": "Slökkt á vefþjón?",
                 "description": "Villa við að tengjast Jellyfin þjón."
+            },
+            "504": {
+                "description": "Ekki tókst að ná í Jellyfin-þjóninum. Gerist almennt vegna þess að milliþjónninn tók of langan tíma að tengjast Jellyfin."
             }
         },
         "errorCode": "Villukóði: {{errorCode}}",
@@ -57,7 +64,11 @@
         "keepAwake": "Ekki slökkva á skjá",
         "lightTheme": "Nota ljóst þema",
         "systemTheme": "Nota þema kerfis",
-        "rotationLock": "Snúningslás"
+        "rotationLock": "Snúningslás",
+        "downloadTranscoding": "Umkóðað niðurhal",
+        "nativeVideoPlayer": "Nota innbyggðan myndspilara",
+        "fmp4Support": "Nota helst fMP4 í HLS",
+        "tabLabels": "Sýna flipa merki"
     },
     "links": {
         "website": "Jellyfin vefsíða",
