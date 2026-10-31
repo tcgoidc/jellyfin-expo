@@ -67,7 +67,7 @@
         "downloadTranscoding": "トランスコード済みダウンロード"
     },
     "links": {
-        "website": "Jellyfin ウェブサイト",
+        "website": "Jellyfin Web サイト",
         "documentation": "ドキュメント",
         "source": "ソースコード",
         "translate": "翻訳",
